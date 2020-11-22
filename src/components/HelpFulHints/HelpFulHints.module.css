@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet');
+
+.HelpFulHints {
+    display: flex;
+}
+
+.HelpFulHints p {
+    font-size: 20px;
+}
+
+.pokemonLinks {
+    /* margin-right: 5px; */
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 20px;
+    margin-top: 22px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: steelblue;
+}
+
+.pokemonLinks:hover {
+    /* border-bottom: 1px solid rgb(99, 99, 212); */
+    text-decoration: underline;
+}

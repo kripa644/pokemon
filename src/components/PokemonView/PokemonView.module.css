@@ -1,0 +1,65 @@
+.pokemonContainer h2{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.PokemonView {
+    /* padding: 5px; */
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid gray; */
+    /* align-items: center;
+    justify-content: center; */
+    height: 300px;
+}
+
+.pokemonImage {
+    width: 280px;
+    margin-top: 10px;
+}
+
+.pokemonData {
+    margin-top: 50px;
+    margin-left: 30px;
+    /* width: 500px;
+    height: 250px;
+    overflow: scroll;
+    border-bottom: 1px solid rgb(134, 120, 120);
+    padding: 10px; */
+}
+.pokemonData p, .pokemonData div {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.pokemonData .abilities {
+    display: flex;
+}
+
+
+.pokemonData .abilities .ability,
+.pokemonData .types .type,
+.pokemonData .moves .move {
+    margin-left: 5px;
+    display: flex;
+}
+
+.pokemonData .abilities .ability p, 
+.pokemonData .types .type p,
+.pokemonData .moves .move p {
+    margin-right: 5px;
+}
+.pokemonData .types,
+.pokemonData .moves{
+    margin-top: -40px;
+    display: flex;
+}
+
+.pokemonName {
+    color: steelblue;
+    border-bottom: 2px solid steelblue;
+}

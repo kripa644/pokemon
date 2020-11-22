@@ -1,0 +1,26 @@
+.SearchItem {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.searchInput {
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    width: 200px;
+    font-size: 16px;
+}
+
+.searchButton {
+    margin-left: 14px;
+    width: 75px;
+    height: 30px;
+    font-size: 16px;
+    /* background: cornflowerblue;
+    color: #fff;
+    
+    transition: background-color 1s; */
+    border-radius: 5px;
+    cursor: pointer;
+}
